@@ -1,0 +1,643 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ca",
+				"cache"
+			],
+			[
+				"cac",
+				"cacheExists"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"Blog",
+				"BlogpostSchema"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"spec",
+				"special_id"
+			],
+			[
+				"toFor",
+				"toFormattedTime"
+			],
+			[
+				"canva",
+				"canvasLoader"
+			],
+			[
+				"hand",
+				"handleError"
+			],
+			[
+				"strin",
+				"stringify"
+			],
+			[
+				"new",
+				"newCheckInCode"
+			],
+			[
+				"check",
+				"checkInCode"
+			],
+			[
+				"api",
+				"apiBaseUrl"
+			],
+			[
+				"bor",
+				"border-collapse"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"getTruck",
+				"getTruckProfile"
+			],
+			[
+				"lastT",
+				"lastTruckLon"
+			],
+			[
+				"last",
+				"lastTruckLat"
+			],
+			[
+				"cur",
+				"currentLat"
+			],
+			[
+				"bro",
+				"broadcastGps"
+			],
+			[
+				"sear",
+				"searchTrucks"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"current",
+				"currentSpecialId"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"fac",
+				"facebookIsSetup"
+			],
+			[
+				"face",
+				"facebookIsSetup"
+			],
+			[
+				"tran",
+				"translateY"
+			],
+			[
+				"curr",
+				"currentTruck"
+			],
+			[
+				"curre",
+				"currentTruckId"
+			],
+			[
+				"currentTru",
+				"currentTruckId"
+			],
+			[
+				"fa",
+				"facebook"
+			],
+			[
+				"twi",
+				"twitterIsSetup"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"ist",
+				"isTwitterSetup"
+			],
+			[
+				"float",
+				"floatLeft"
+			],
+			[
+				"fl",
+				"floatRight"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"before",
+				"beforeInit"
+			],
+			[
+				"exp",
+				"expandMap"
+			],
+			[
+				"special",
+				"specialId"
+			],
+			[
+				"act",
+				"activeTab"
+			],
+			[
+				"ac",
+				"activeTab"
+			],
+			[
+				"bord",
+				"border-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sass/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 30777,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4496,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "old-index.html",
+			"settings":
+			{
+				"buffer_size": 4484,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/TypeScript/typescript.sublime-build",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"Pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/toddwprice/git/THC/Ex2/models/cache.js",
+		"/Users/toddwprice/git/THC/Ex2/routes/index.js",
+		"/Users/toddwprice/git/THC/Ex2/routes/user.js",
+		"/Users/toddwprice/git/THC/Ex2/models/BlogPost.js",
+		"/Users/toddwprice/git/THC/Ex2/package.json",
+		"/Users/toddwprice/git/THC/Ex2/views/index.jade",
+		"/Users/toddwprice/git/THC/Ex1/routes/index.js",
+		"/Users/toddwprice/git/THC/Ex1/views/index.jade",
+		"/Users/toddwprice/git/THC/Ex1/app.js",
+		"/Users/toddwprice/git/THC/THC.sublime-project",
+		"/Users/toddwprice/git/THC/Ex1/node_modules/express/node_modules/connect/lib/middleware/staticCache.js",
+		"/Users/toddwprice/git/THC/Ex1/node_modules/express/node_modules/connect/lib/middleware/static.js",
+		"/Users/toddwprice/.bash_profile",
+		"/Users/toddwprice/Dropbox/Home/Projects/CrowdSurfing/Tom Hughes-Croucher",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/CurbsideFoodies/Cordova.plist",
+		"/Users/toddwprice/Dropbox/PlainText/Strings.txt",
+		"/Users/toddwprice/Downloads/heartcode-canvasloader.html",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/index.html",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/CurbsideFoodies/CurbsideFoodies-Info.plist",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/css/apple.css",
+		"/Users/toddwprice/Downloads/jqtouch-1.0-b4-rc 4/themes/css/apple.css",
+		"/Users/toddwprice/git/lab/twitter-oauth-node/app.js",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/css/cf.css",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/data/tweets.json",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/js/qrcode.js",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/js/app.js",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/js/promise-simple.js",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/blank.html",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/js/app.ts",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/phone.html",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesApi/package.json",
+		"/Users/toddwprice/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesApi/test.js",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesApi/sql/nearby_GetTrucks.sql",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesApi/app.js",
+		"/Users/toddwprice/Downloads/twitter-hogan.js-6aa56b9/web/1.0.0/hogan.js",
+		"/Users/toddwprice/Downloads/twitter-hogan.js-6aa56b9/web/1.0.0/hogan.min.js",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/js/hogan.js",
+		"/Users/toddwprice/Downloads/twitter-hogan.js-6aa56b9/lib/hogan.js",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/js/app3.js",
+		"/Users/toddwprice/git/lab/learningnode/resources/users.js",
+		"/Users/toddwprice/git/lab/learningnode/seeds.js",
+		"/Users/toddwprice/git/lab/learningnode/routes.js",
+		"/Users/toddwprice/git/lab/learningnode/models.js",
+		"/Users/toddwprice/git/lab/learningnode/app.js",
+		"/Users/toddwprice/Desktop/test.htm",
+		"/Users/toddwprice/Dropbox/PlainText/TO DO.txt",
+		"/Users/toddwprice/git/lab/learningnode/views/index.jade",
+		"/Users/toddwprice/git/lab/learningnode/public/auth.html",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/archives/2012_10_01/README.txt",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/config.xml",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/js/app2.js",
+		"/Users/toddwprice/DEV/PhoneGapTest/PhoneGapTest/www/css/app.css",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/js/googlemaps.js",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/scss/apple.scss",
+		"/Users/toddwprice/Downloads/itabbar/demo.html",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/index_jqm.html",
+		"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www/src/iphone-sim.css",
+		"/Users/toddwprice/Downloads/jqtouch-1.0-b4-rc/demos/todo/index.html",
+		"/Users/toddwprice/git/iOS-Inspired-jQuery-Mobile-Theme/index.html",
+		"/Users/toddwprice/git/CurbsideFoodies/PhoneGap/iOS/CurbsideFoodiesPhoneGap/www/js/stopgap.js",
+		"/Users/toddwprice/git/CurbsideFoodies/PhoneGap/iOS/CurbsideFoodiesPhoneGap/www/js/app.js",
+		"/Users/toddwprice/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/toddwprice/git/THC/Ex1",
+			"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"static",
+			"CFBundleVersion",
+			"nearme:",
+			"facebook:",
+			"checkin:",
+			".scroll",
+			"scroll",
+			"profile",
+			"jqt",
+			"480",
+			"profile:",
+			"picture_url",
+			"expandMap",
+			"#nearme button",
+			"#nearme back",
+			"search:",
+			"nearme",
+			"nearme:",
+			"images/trucks/<%= truck_id %>.jpg",
+			".trucklist",
+			"trucklist:",
+			"app.templates",
+			"truck_description",
+			"facebook",
+			"twitter",
+			"arrow",
+			".arrow",
+			"tmpl-truck",
+			"facebook:",
+			"expandMap",
+			"shrinkMap",
+			"username",
+			"addCheckin",
+			"checkin:",
+			"checkincode",
+			"checkInCode",
+			"checkin:",
+			"#jqt ",
+			"data.ref",
+			"data.refre",
+			"data:",
+			"class=\"lock\"",
+			"twitter:",
+			"checkin:",
+			"redemption",
+			"truckDetail:",
+			"check in",
+			"checkin to",
+			"redemption",
+			"#website",
+			"deviceready",
+			"app.loading.show",
+			"...')",
+			"...",
+			".msg",
+			"favorites:",
+			"#tweets",
+			"tweets",
+			"Page",
+			"login:",
+			"progress",
+			".hidden",
+			"border-collapse",
+			"1px",
+			"td",
+			"datacol",
+			"grid_8",
+			"datacol",
+			"textarea",
+			"edit_button",
+			"profileTruckEdit",
+			"profile",
+			"redemptionCodeCell",
+			"currentCheckIn",
+			"currentCheckin",
+			"currentCheckIn",
+			"console.log(",
+			"core:",
+			"truck_id",
+			"app.cache",
+			"currentUser.lat",
+			"app.currentUser",
+			"login:",
+			"app.currentUser.lat",
+			"truckInfo:",
+			"GPS",
+			"GPS timeout",
+			"currentUser",
+			"getOrAddFBUser",
+			"is_found",
+			"app.currentUser = ",
+			"login:",
+			"currentUser",
+			"favorites:",
+			"getOrAddFBUser",
+			"currentUser",
+			"error:",
+			"apiBaseUrl",
+			"getProfile",
+			"profile:",
+			"profile",
+			"tabbar.res",
+			"login:",
+			"Special",
+			"SPECIAL",
+			"border:",
+			"mytruck:",
+			"getTruckProfile",
+			"switchBroadcasting",
+			"handleError",
+			"logError",
+			"app.core.error",
+			"switchBroadcasting",
+			"current_position",
+			"\n  ",
+			"li",
+			".arrow",
+			"listheader",
+			"setActiveTab(0)",
+			"setActiveTab(1)",
+			"setActiveTab(2)",
+			"setActiveTab(0)",
+			"mytruck",
+			"truckhome",
+			"login:",
+			"init:",
+			".bind(",
+			"search"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"app.core.log(",
+			"app.core.handleError",
+			"setActiveTab(1)",
+			"setActiveTab(2)",
+			"setActiveTab(3)",
+			"setActiveTab(1)",
+			"mytruck",
+			".on(",
+			".tap(",
+			"jqtouch",
+			"",
+			"            <div id=\"truck_detail\">\\\n                <div class=\"truck_icon\"><img src=\"images/trucks/<%= TruckId %>.jpg\" /></div>\\\n                <div class=\"truck_data\">\\\n                    <div class=\"truck_name\"><%= TruckName %></div>\\\n                    <div class=\"distance\"><%= Distance %> miles away \\\n                        <% if(HasSpecial) { %>\\\n                        <a href=\"#checkin\" class=\"slideup\" data-id=\"<%= SpecialId %>\"><span class=\"special\">SPECIAL</span></a>\\\n                        <% } %>\\\n                    </div>\\\n                </div>\\\n                <div class=\"truck_description\"><%= Description %></div>\\\n            </div>\\\n            <ul class=\"edgetoedge\" style=\"margin-top: 10px;\">\\\n                <li class=\"arrow\"><a href=\"#menu\">Menu</a></li>\\\n                <li class=\"arrow\"><a href=\"<%= WebSite %>\">Web Site</a></li>\\\n                <li class=\"arrow\"><a href=\"<%= Twitter %>\">Twitter</a></li>\\",
+			"url(",
+			"nav#tabbar",
+			"url(/src",
+			"div.content ul",
+			"type=\"text/javascript\"",
+			"class=\"jqtpage\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sass/_settings.scss",
+					"settings":
+					{
+						"buffer_size": 30777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1980,
+								1980
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 843.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								722,
+								722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 55.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "old-index.html",
+					"settings":
+					{
+						"buffer_size": 4484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4484,
+								4484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1865.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true
+}

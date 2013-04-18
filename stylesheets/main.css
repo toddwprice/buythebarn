@@ -1,0 +1,9 @@
+.nav
+{
+	padding-top: 8px;
+}
+.nav a
+{
+	padding: 3px 10px;
+	white-space: nowrap;
+}
