@@ -1,8 +1,8 @@
 3.2.1 (Media Mark)
-ae567f49cd9baef8bc908651630a3a3a4dad1301
+7b3b831e2cb57ad1ad838d56a7fac529b259162b
 o:Sass::Tree::RootNode
 :
-@linei:@template"@x// Required global settings and mixins for Foundation
+@linei:@template"8x// Required global settings and mixins for Foundation
 @import "foundation/foundation-global";
 
 // Settings file to override Foundation variables
@@ -55,7 +55,7 @@ $body-font-family: "Open Sans", sans-serif;
 //
 
 // $row-width: 62.5em;
-// $column-gutter: 1.875em;
+$column-gutter: 3.0em;
 // $total-columns: 12;
 
 //
@@ -106,7 +106,7 @@ $header-font-family: "Averia Serif Libre", serif;
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
 // $paragraph-font-size: 1em;
-// $paragraph-line-height: 1.6;
+$paragraph-line-height: 1.8;
 // $paragraph-margin-bottom: emCalc(20px);
 // $paragraph-aside-font-size: emCalc(14px);
 // $paragraph-aside-line-height: 1.35;
@@ -997,7 +997,7 @@ $header-font-family: "Averia Serif Libre", serif;
 // $topbar-breakpoint: emCalc(940px); // Change to 9999px for always mobile layout
 // $topbar-media-query: "only screen and (min-width "#{$topbar-breakpoint}")";
 
-:@has_childrenT:@options{ :@children[Ão:Sass::Tree::CommentNode
+:@has_childrenT:@options{ :@children[Ço:Sass::Tree::CommentNode
 :
 @type:silent;i;	@;
 [ :@value["=/* Required global settings and mixins for Foundation */o:Sass::Tree::ImportNode
@@ -1057,9 +1057,10 @@ comma;	@;[o:Sass::Script::String	;:string;i;	@;"Open Sanso;	;:iden
  * Grid Variables
  * */o;
 ;;;i:;	@;
-[ ;["Q/* $row-width: 62.5em;
- * $column-gutter: 1.875em;
- * $total-columns: 12; */o;
+[ ;["/* $row-width: 62.5em; */o;;0;"column-gutter;i;;o:Sass::Script::Number:@original"3em;i;;	@:@denominator_units[ ;f3:@numerator_units["em;	@;
+[ o;
+;;;i<;	@;
+[ ;["/* $total-columns: 12; */o;
 ;;;i>;	@;
 [ ;["%/*
  * Block Grid Variables
@@ -1107,12 +1108,13 @@ serif;	@;
  * $small-font-size: 60%;
  * $small-font-color: lighten($header-font-color, 30%); */o;
 ;;;ij;	@;
-[ ;["R/* We use these to style paragraphs
+[ ;["‹/* We use these to style paragraphs
  * $paragraph-font-family: inherit;
  * $paragraph-font-weight: normal;
- * $paragraph-font-size: 1em;
- * $paragraph-line-height: 1.6;
- * $paragraph-margin-bottom: emCalc(20px);
+ * $paragraph-font-size: 1em; */o;;0;"paragraph-line-height;in;o;;"1.8;in;	@;[ ;f1.8 ÌÍ;[ ;	@;
+[ o;
+;;;io;	@;
+[ ;["©/* $paragraph-margin-bottom: emCalc(20px);
  * $paragraph-aside-font-size: emCalc(14px);
  * $paragraph-aside-line-height: 1.35;
  * $paragraph-aside-font-style: italic; */o;

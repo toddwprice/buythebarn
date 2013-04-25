@@ -25,7 +25,7 @@
 			<div class="large-12 columns">
 				<ul class="button-group">
 					<li><a href="#index" class="button">Home</a></li>
-					<li><a href="#history" class="button">Barn History</a></li>
+					<li><a href="#details" class="button">Barn Description</a></li>
 					<li><a href="#updates" class="button">See the Updates</a></li>
 					<li><a href="#contact" class="button">Contact Us</a></li>
 				</ul>
@@ -54,47 +54,34 @@
 
 	<div id="main_content"></div>
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
-  '.js><\/script>')
-  </script>
+	<script>
+	document.write('<script src=' +
+	('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+	'.js><\/script>')
+	</script>
   
-  <script src="javascripts/foundation/foundation.js"></script>
-	
+	<script src="javascripts/foundation/foundation.js"></script>
 	<script src="javascripts/foundation/foundation.alerts.js"></script>
-	
 	<script src="javascripts/foundation/foundation.clearing.js"></script>
-	
 	<script src="javascripts/foundation/foundation.cookie.js"></script>
-	
 	<script src="javascripts/foundation/foundation.dropdown.js"></script>
-	
 	<script src="javascripts/foundation/foundation.forms.js"></script>
-	
 	<script src="javascripts/foundation/foundation.joyride.js"></script>
-	
 	<script src="javascripts/foundation/foundation.magellan.js"></script>
-	
 	<script src="javascripts/foundation/foundation.orbit.js"></script>
-	
 	<script src="javascripts/foundation/foundation.placeholder.js"></script>
-	
 	<script src="javascripts/foundation/foundation.reveal.js"></script>
-	
 	<script src="javascripts/foundation/foundation.section.js"></script>
-	
 	<script src="javascripts/foundation/foundation.tooltips.js"></script>
-	
 	<script src="javascripts/foundation/foundation.topbar.js"></script>
-	
   
-  <script>
+	<script>
     $(document).foundation();
 
     app = {};
     app.LoadContent = function(sectionName)
     {
+    	if (sectionName == '') sectionName = 'index';
 		var template = _.template($('#tmpl-' + sectionName).html());	
 
 		$('#main_content')
@@ -106,7 +93,7 @@
 
     app.Init = function()
     {
-    	app.LoadContent('index');
+    	app.LoadContent(location.hash.replace('#', ''));
     };
 
     $(window).bind('hashchange', function()
@@ -119,7 +106,7 @@
 	    app.Init();
     })
 
-  </script>
+	</script>
 
 <script id="tmpl-index" type="text/template">
 	<div class="row">
@@ -141,11 +128,38 @@
 	</div>
 </script> 
 
-<script id="tmpl-history" type="text/template">
+<script id="tmpl-details" type="text/template">
 	<div class="row">
 		<div class="large-7 columns">
-			<h3>Barn History</h3>
-			<p>History goes here.</p>
+			<h3>Barn Description</h3>
+			<p>
+			Our home was built in 1903 as part of a dairy farm that occupied 
+			much of present-day Prairie Grove. In 2000, the Davies
+			family purchased the farm and began plans to renovate the barn
+			as a residence. We purchased the home from them as-is in 2006
+			and made many, <a href="#updates">many enhancements</a>.
+			</p>
+			<p>
+			Here are some more details about our home:
+			</p>
+
+			<ul class="stars">
+				<li>96' long by 36' deep</li>
+				<li>Master bedroom with converted vintage dresser twin sinks</li>
+				<li>Second spacious bedroom</li>
+				<li>Loft with 5' ceiling, a playful space for a third bed, playroom and/or storage</li>
+				<li>Luxurious radiant floor heating</li>
+				<li>Wood-burning stove for winter ambiance</li>
+				<li>Gazebo with gas fireplace</li>
+				<li>Kitchen with gourmet stainless appliances, granite countertops, custom faced barnwood cabinets and beautiful custom wood island</li>
+				<li>Greatroom with 30+ foot ceiling, partially finished and large enough for indoor basketball</li>
+				<li>Apartment partially finished with additional loft, unfinished bath and kitchen</li>
+				<li>Large upstairs level with stubbed in electrical and plumbing for future expansion</li>
+				<li>Rivendell-style tree house in the woods</li>
+				<li>Excellent schools: <a href="http://www.greatschools.org/illinois/crystal-lake/3412-Prairie-Grove-Elementary-School/">Prairie Grove Elementary</a> (8), 
+				<a href="http://www.greatschools.org/illinois/crystal-lake/5729-Prairie-Grove-Junior-High-School/">Prairie Grove Junior High</a> (9) and 
+				<a href="http://www.greatschools.org/search/search.page?search_type=0&q=prairie+ridge+high+school&state=IL">Prairie Ridge High School</a> (9)</li>
+			</ul>
 		</div>
 		<div class="large-5 columns">
 			<h4>Sunny, Spacious Barn Home Provides a Relaxing Retreat</h4>
@@ -167,8 +181,26 @@
 	<div class="row">
 		<div class="large-7 columns">
 			<h3>See the Updates</h3>
-			<p>Updates go here.</p>
+			<p>We purchased our home in March 2006 and have been updating it ever since! Here are some of the many 
+			updates over the past 7 years:</p>
+
+			<ul class="stars">
+				<li>Glorious wood-burning stove that has made winter a season to anticipate</li>
+				<li>Professional landscaping including dozens of shrubs, bushes, flowers and grasses</li>
+				<li>Apartment remade with new poured concrete sub-floor, flooring, windows and door</li>
+				<li>Custom-built loft on main level with cedar stairs and rails</li>
+				<li>Tree House built for imaginative getaways in the woods</li>
+				<li>RO water filter for delicious drinking water</li>
+				<li>Master bath updated with new granite sink top, faucets and basins to top beautiful vintage dresser sink</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+
 		</div>
+
+
 		<div class="large-5 columns">
 			<h4>Sunny, Spacious Barn Home Provides a Relaxing Retreat</h4>
 			<p>It’s a home. And it’s a lifestyle. A hundred years ago, this fabulous, sunny, spacious 
@@ -190,25 +222,19 @@
 			<h3>Contact Us</h3>
 
 			<h4>Want more Information?</h4>
-			<p>We are asking $365,000 AS-IS but are willing to negotiate. </p>
+			<p>We are asking $365,000 AS-IS but are willing to negotiate. 
+			Our house is For Sale By Owner which means a better price for you!</p>
+			<p>If you're interested in viewing the barn, please contact us and be prepared to
+			email us a pre-qualification letter so we know you are a serious buyer.</p>
 
-			<p>Our house is For Sale By Owner which means a better price for you!</p>
+			<p><i>Here’s how you can contact us:</i></p>
 
-			<p>Here’s how you can contact us:</p>
-
-			<table>
-				<tr>
-					<td>
-						<blockquote>
-							Todd Price<br/>
-							847.650.3450<br/>
-							toddwprice [at] gmail [dot] com
-						</blockquote>
-					</td>
-					<td>
-					</td>
-				</tr>
-				=
+			<blockquote>
+				Todd and Sara Price<br/>
+				H: 815.301.6900<br/>
+				toddwprice [at] gmail [dot] com<br/>
+				saraprice11 [at] gmail [dot] com
+			</blockquote>
 
 			Here’s where you can find us:
 
@@ -217,7 +243,9 @@
 				Praire Grove, IL 60012
 			</blockquote>
 
-			<a href="">View Map</a>
+			<p>
+			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4801+Barreville+Rd,+Crystal+Lake,+IL&amp;aq=&amp;sll=39.739318,-89.266507&amp;sspn=10.72258,23.269043&amp;ie=UTF8&amp;hq=&amp;hnear=4801+Barreville+Rd,+Crystal+Lake,+McHenry,+Illinois+60012&amp;t=m&amp;z=14&amp;ll=42.261117,-88.272425&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4801+Barreville+Rd,+Crystal+Lake,+IL&amp;aq=&amp;sll=39.739318,-89.266507&amp;sspn=10.72258,23.269043&amp;ie=UTF8&amp;hq=&amp;hnear=4801+Barreville+Rd,+Crystal+Lake,+McHenry,+Illinois+60012&amp;t=m&amp;z=14&amp;ll=42.261117,-88.272425" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+			</p>
 		</div>
 		<div class="large-5 columns">
 			<h4>Sunny, Spacious Barn Home Provides a Relaxing Retreat</h4>
