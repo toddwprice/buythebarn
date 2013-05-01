@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="stylesheets/app.css" />
   <link rel="stylesheet" href="stylesheets/main.css" />
 
+  <script src="javascripts/vendor/jquery.js"></script>
   <script src="javascripts/vendor/custom.modernizr.js"></script>
   <script src="javascripts/vendor/underscore.js"></script>
 
@@ -25,6 +26,7 @@
 			<div class="large-12 columns">
 				<ul class="button-group">
 					<li><a href="#index" class="button">Tour</a></li>
+					<li><a href="/gallery" class="button">Gallery</a></li>
 					<li><a href="#details" class="button">Details</a></li>
 					<li><a href="#contact" class="button">Contact</a></li>
 				</ul>
@@ -53,11 +55,7 @@
 
 	<div id="main_content"></div>
 
-	<script>
-	document.write('<script src=' +
-	('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
-	'.js><\/script>')
-	</script>
+
   
 	<script src="javascripts/foundation/foundation.js"></script>
 	<script src="javascripts/foundation/foundation.alerts.js"></script>
@@ -78,6 +76,8 @@
     $(document).foundation();
 
     app = {};
+    app.galleriaIsLoaded = false;
+
     app.LoadContent = function(sectionName)
     {
     	if (sectionName == '') sectionName = 'index';
@@ -88,6 +88,16 @@
 			.empty()
 			.append(template({}))
 			.animate({'opacity': '1'});
+
+		if (sectionName == 'galleria' && !app.galleriaIsLoaded) 
+		{
+			window.setTimeout(function()
+			{
+				Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+		        Galleria.run('#galleria');
+		        app.galleriaIsLoaded = true;
+			}, 500);
+		}
     };
 
     app.Init = function()
@@ -125,7 +135,7 @@
 			</p>
 		</div>
 	</div>
-</script> 
+</script>
 
 <script id="tmpl-details" type="text/template">
 	<div class="row">
@@ -143,6 +153,7 @@
 			</p>
 
 			<ul class="stars">
+				<li>1+ acre on wooded lot</li>
 				<li>96' long by 36' deep</li>
 				<li>Master bedroom with uniquely converted vintage buffet twin sinks</li>
 				<li>Second spacious bedroom</li>
@@ -194,7 +205,7 @@
 
 			<blockquote>
 				Todd and Sara Price<br/>
-				815.301.6900<br/>
+				(815) 893-9830<br/>
 				toddwprice [at] gmail [dot] com<br/>
 				saraprice11 [at] gmail [dot] com
 			</blockquote>
