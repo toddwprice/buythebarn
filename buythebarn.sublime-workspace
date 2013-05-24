@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-family"
+			],
+			[
+				"galler",
+				"galleriaIsLoaded"
+			],
+			[
 				"ca",
 				"cache"
 			],
@@ -184,10 +192,18 @@
 	"buffers":
 	[
 		{
-			"file": "sass/_settings.scss",
+			"file": "gallery/index.html",
 			"settings":
 			{
-				"buffer_size": 30776,
+				"buffer_size": 5650,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gallery/css/supersized.css",
+			"settings":
+			{
+				"buffer_size": 2776,
 				"line_ending": "Unix"
 			}
 		},
@@ -195,15 +211,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10595,
+				"buffer_size": 11157,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "stylesheets/main.css",
+			"file": "/Users/toddwprice/Dropbox/PlainText/TODO.txt",
 			"settings":
 			{
-				"buffer_size": 379,
+				"buffer_size": 31088,
 				"line_ending": "Unix"
 			}
 		}
@@ -248,7 +264,16 @@
 	},
 	"file_history":
 	[
+		"/Users/toddwprice/git/buythebarn/sass/_settings.scss",
+		"/Users/toddwprice/git/buythebarn/package.json",
 		"/Users/toddwprice/git/buythebarn/stylesheets/main.css",
+		"/Users/toddwprice/git/buythebarn/app.js",
+		"/Users/toddwprice/git/buythebarn/stylesheets/demo.css",
+		"/Users/toddwprice/git/buythebarn/gallery.html",
+		"/Users/toddwprice/git/buythebarn/gallery2.html",
+		"/Users/toddwprice/git/buythebarn/index.html",
+		"/Users/toddwprice/git/buythebarn/gallery/index.html",
+		"/Users/toddwprice/git/buythebarn/stylesheets/style.css",
 		"/Users/toddwprice/git/buythebarn/old-index.html",
 		"/Users/toddwprice/git/THC/Ex2/models/cache.js",
 		"/Users/toddwprice/git/THC/Ex2/routes/index.js",
@@ -323,6 +348,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/Users/toddwprice/git/buythebarn",
 			"/Users/toddwprice/git/THC/Ex1",
 			"/Users/toddwprice/git/CurbsideFoodies/CurbsideFoodiesPhoneGap/www",
 			""
@@ -333,6 +359,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"815",
+			"nav",
+			"foundation",
+			"bg.jpg",
+			"img",
 			"#updates",
 			"row",
 			".row",
@@ -455,12 +486,7 @@
 			"app.core.error",
 			"switchBroadcasting",
 			"current_position",
-			"\n  ",
-			"li",
-			".arrow",
-			"listheader",
-			"setActiveTab(0)",
-			"setActiveTab(1)"
+			"\n  "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -496,49 +522,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "sass/_settings.scss",
+					"file": "gallery/index.html",
 					"settings":
 					{
-						"buffer_size": 30776,
+						"buffer_size": 5650,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1535,
-								1535
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 10595,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4908,
-								4908
+								5633,
+								5633
 							]
 						],
 						"settings":
@@ -553,25 +553,80 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "stylesheets/main.css",
+					"buffer": 1,
+					"file": "gallery/css/supersized.css",
 					"settings":
 					{
-						"buffer_size": 379,
+						"buffer_size": 2776,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								377,
-								377
+								2195,
+								2195
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 880.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 11157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/toddwprice/Dropbox/PlainText/TODO.txt",
+					"settings":
+					{
+						"buffer_size": 31088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -642,6 +697,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 159.0,
+	"side_bar_width": 245.0,
 	"status_bar_visible": true
 }
